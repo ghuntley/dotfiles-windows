@@ -35,6 +35,8 @@ cinst dotpeek
 cinst resharper
 cinst windbg
 
+cinst vs2013SDK
+
 cinst linqpad4
 cinst fiddler4
 
