@@ -37,6 +37,7 @@ cinst resharper
 cinst windbg
 
 cinst vs2013SDK
+cinst ncrunch2.vs2013
 
 cinst linqpad4
 cinst fiddler4
