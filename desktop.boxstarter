@@ -62,7 +62,7 @@ cinst vlc
 cinst mpc-hc
 cinst spotify
 cinst youtube-dl
-cinst flashplayeractivex
+cinst flashplayerplugin
 cinst adobeair
 
 ##############
