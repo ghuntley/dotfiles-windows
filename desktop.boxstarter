@@ -1,15 +1,15 @@
 #######################
 # Windows Configuration
 
-#Install-WindowsUpdate -AcceptEula
+Install-WindowsUpdate -AcceptEula
 
-#Enable-RemoteDesktop
+Enable-RemoteDesktop
 
-#Update-ExecutionPolicy Unrestricted
+Update-ExecutionPolicy Unrestricted
 
-#Disable-InternetExplorerESC
+Disable-InternetExplorerESC
 
-#Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 #################
 # Windows Features
