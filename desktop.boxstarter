@@ -74,8 +74,9 @@ cinst lastpass
 # Essentials
 
 cinst vim
-cinst dropbox
 cinst gnuwin
+cinst console
+cinst dropbox
 
 cinst 7zip
 cinst 7zip.commandline
