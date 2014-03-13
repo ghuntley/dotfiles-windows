@@ -65,9 +65,7 @@ cinst adobeair
 ##############
 # Web Browsers
 
-cinst GoogleChrome
-cinst Firefox
-cinst Opera
+cinst AllBrowsers
 cinst tor-browser
 cinst lastpass
 
