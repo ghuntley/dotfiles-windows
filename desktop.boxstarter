@@ -1,7 +1,7 @@
 #######################
 # Windows Configuration
 
-Install-WindowsUpdate -AcceptEula
+#Install-WindowsUpdate -AcceptEula
 
 Enable-RemoteDesktop
 
