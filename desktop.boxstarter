@@ -130,7 +130,9 @@ Install-ChocolateyVsixPackage CodeMaid http://visualstudiogallery.msdn.microsoft
 
 Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
 Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
-
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Google\Chrome\Application\chrome.exe"
+Install-ChocolateyPinnedTaskBarItem "$sublimeDir\sublime_text.exe"
 Install-ChocolateyPinnedTaskBarItem "$($Boxstarter.programFiles86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
+
+Install-ChocolateyFileAssociation ".txt" "$env:programfiles\Sublime Text 3\sublime_text.exe"
 
