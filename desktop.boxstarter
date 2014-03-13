@@ -25,6 +25,7 @@ cinst IIS-WindowsAuthentication -source windowsfeatures
 
 cinst sourcecodepro
 cinst PowerShell
+cinst DotNet3.5
 cinst DotNet4.0
 cinst DotNet4.5
 cinst DotNet4.5.1
