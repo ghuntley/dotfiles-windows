@@ -28,7 +28,7 @@ cinst PowerShell
 cinst DotNet4.0
 cinst DotNet4.5
 cinst DotNet4.5.1
-cinst mono
+cinst mono3
 
 cinst dotpeek
 cinst resharper
