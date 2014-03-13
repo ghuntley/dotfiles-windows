@@ -1,28 +1,29 @@
 #######################
 # Windows Configuration
 
-    Install-WindowsUpdate -AcceptEula
+	Install-WindowsUpdate -AcceptEula
 
-    Enable-RemoteDesktop
+	Enable-RemoteDesktop
 
-    Update-ExecutionPolicy Unrestricted
+	Update-ExecutionPolicy Unrestricted
 
-    Disable-InternetExplorerESC
+	Disable-InternetExplorerESC
 
-    Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+	Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 #################
 # Windows Features
 
-    cinst TelnetClient -source windowsFeatures
-    cinst IIS-WebServerRole -source windowsfeatures
-    cinst IIS-HttpCompressionDynamic -source windowsfeatures
-    cinst IIS-ManagementScriptingTools -source windowsfeatures
-    cinst IIS-WindowsAuthentication -source windowsfeatures
+	cinst TelnetClient -source windowsFeatures
+	cinst IIS-WebServerRole -source windowsfeatures
+	cinst IIS-HttpCompressionDynamic -source windowsfeatures
+	cinst IIS-ManagementScriptingTools -source windowsfeatures
+	cinst IIS-WindowsAuthentication -source windowsfeatures
   
 ###############
 # Customization
- 	Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
+
+	Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
 	Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
 
 ############## 
