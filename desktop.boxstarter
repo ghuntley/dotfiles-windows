@@ -1,0 +1,116 @@
+#######################
+# Windows Configuration
+
+    Install-WindowsUpdate -AcceptEula
+
+    Enable-RemoteDesktop
+
+    Update-ExecutionPolicy Unrestricted
+
+    Disable-InternetExplorerESC
+
+    Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+
+#################
+# Windows Features
+
+    cinst TelnetClient -source windowsFeatures
+    cinst IIS-WebServerRole -source windowsfeatures
+    cinst IIS-HttpCompressionDynamic -source windowsfeatures
+    cinst IIS-ManagementScriptingTools -source windowsfeatures
+    cinst IIS-WindowsAuthentication -source windowsfeatures
+  
+###############
+# Customization
+ 	Install-ChocolateyPinnedTaskBarItem "$env:windir\system32\mstsc.exe"
+	Install-ChocolateyPinnedTaskBarItem "$env:programfiles\console\console.exe"
+
+############## 
+# Development
+
+	cinst sourcecodepro
+	cinst PowerShell
+	cinst DotNet4.0
+	cinst DotNet4.5
+	cinst DotNet4.5.1
+	cinst mono
+
+	cinst dotpeek
+	cinst resharper
+	cinst windbg
+
+	cinst linqpad4
+	cinst fiddler4
+
+	cinst javaruntime
+	cinst java.jdk
+
+	cinst githubforwindows
+	cinst sourcetree
+
+	cinst python3
+	cinst nodejs.install
+	cinst ruby
+
+	cinst git.commandline
+	cinst poshgit
+	cinst git-credential-winstore
+
+############
+# Multimedia
+
+	cinst vlc
+	cinst mpc-hc
+	cinst spotify
+	cinst youtube-dl
+	cinst flashplayeractivex
+	cinst adobeair
+
+##############
+# Web Browsers
+
+	cinst GoogleChrome
+	cinst Firefox
+	cinst Opera
+	cinst tor-browser
+	cinst lastpass
+
+############
+# Essentials
+
+	cinst vim
+	cinst dropbox
+	cinst gnuwin
+
+	cinst 7zip
+	cinst 7zip.commandline
+
+	cinst foxitreader
+
+	cinst markpad
+	cinst sublimetext3
+
+	cinst totalcommander
+	cinst rdcman
+
+	cinst imgburn
+	cinst utorrent
+
+	cinst filezilla
+	cinst paint.net
+
+##########
+# Sysadmin
+
+	cinst sysinternals
+	cinst lockhunter
+
+	cinst ultravnc
+	cinst teamviewer
+
+	cinst nmap
+	cinst wireshark
+	cinst windirstat
+
+	cinst winscp
+	cinst putty
