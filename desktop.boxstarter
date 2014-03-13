@@ -78,7 +78,7 @@ cinst lastpass
 
 cinst vim
 cinst gnuwin
-cinst console
+cinst console2
 cinst dropbox
 
 cinst 7zip
