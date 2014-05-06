@@ -9,7 +9,7 @@ Update-ExecutionPolicy Unrestricted
 
 Disable-InternetExplorerESC
 
-Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
+#Set-ExplorerOptions -showHidenFilesFoldersDrives -showProtectedOSFiles -showFileExtensions
 
 #################
 # Windows Features
