@@ -64,6 +64,7 @@ cinst git-credential-winstore
 cinst vlc
 cinst mpc-hc
 cinst spotify
+cinst toastify
 cinst youtube-dl
 cinst flashplayerplugin
 cinst adobeair
