@@ -38,6 +38,7 @@ cinst windbg
 
 cinst NuGet.CommandLine
 cinst vs2013SDK
+cinst ScriptCS
 cinst ncrunch2.vs2013
 
 cinst linqpad4
