@@ -36,6 +36,7 @@ cinst dotpeek
 cinst resharper
 cinst windbg
 
+cinst NuGet.CommandLine
 cinst vs2013SDK
 cinst ncrunch2.vs2013
 
