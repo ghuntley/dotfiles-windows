@@ -73,6 +73,7 @@ cinst adobeair
 # Web Browsers
 
 cinst AllBrowsers
+cinst elinks
 cinst tor-browser
 cinst lastpass
 
