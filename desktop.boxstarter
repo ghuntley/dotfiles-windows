@@ -81,6 +81,7 @@ cinst lastpass
 # Essentials
 
 cinst vim
+cinst sudo
 cinst gnuwin
 cinst console2
 cinst dropbox
