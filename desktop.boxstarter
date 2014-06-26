@@ -116,6 +116,7 @@ cinst windirstat
 
 cinst winscp
 cinst putty
+cinst axel
 
 ###############
 # VS extensions
