@@ -43,6 +43,7 @@ cinst ncrunch2.vs2013
 
 cinst linqpad4
 cinst fiddler4
+cinst curl
 
 cinst javaruntime
 cinst java.jdk
