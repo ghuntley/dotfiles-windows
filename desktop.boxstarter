@@ -35,6 +35,7 @@ cinst mono3
 cinst dotpeek
 cinst resharper
 cinst windbg
+cinst ack
 
 cinst NuGet.CommandLine
 cinst vs2013SDK
