@@ -138,7 +138,8 @@ Install-ChocolateyVsixPackage NUnitTestAdapter https://visualstudiogallery.msdn.
 Install-ChocolateyVsixPackage MSRTestGen https://visualstudiogallery.msdn.microsoft.com/45208924-e7b0-45df-8cff-165b505a38d7/file/104618/5/GenerateUnitTest.vsix
 Install-ChocolateyVsixPackage MSRPex https://visualstudiogallery.msdn.microsoft.com/fb5badda-4ea3-4314-a723-a1975cbdabb4/file/100523/7/Microsoft.CodeDigger.vsix
 Install-ChocolateyVsixPackage GotoDefinition https://visualstudiogallery.msdn.microsoft.com/4b286b9c-4dd5-416b-b143-e31d36dc622b/file/3610/4/GoToDef.vsix
-Install-ChocolateyVsixPackage CodeMaid http://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496/file/9356/23/CodeMaid_v0.7.0.vsix
+Install-ChocolateyVsixPackage CodeMaid https://visualstudiogallery.msdn.microsoft.com/76293c4d-8c16-4f4a-aee6-21f83a571496/file/9356/23/CodeMaid_v0.7.0.vsix
+Install-ChocolateyVsixPackage SideWaffle http://sidewaffle.com/feed/web/templatepack.vsix
 
 ###############
 # Customization
