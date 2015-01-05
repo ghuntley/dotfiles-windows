@@ -42,6 +42,7 @@ cinst NuGet.CommandLine
 cinst vs2013SDK
 cinst ScriptCS
 cinst ncrunch2.vs2013
+cinst mspeclivetemplates
 
 cinst linqpad4
 cinst fiddler4
