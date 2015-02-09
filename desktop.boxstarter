@@ -54,6 +54,7 @@ cinst java.jdk
 
 cinst githubforwindows
 cinst sourcetree
+cinst vagrant
 
 cinst python3
 cinst nodejs.install
