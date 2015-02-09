@@ -95,6 +95,8 @@ cinst console2
 cinst dropbox
 cinst keepass
 
+cinst checksum
+
 cinst 7zip
 cinst 7zip.commandline
 
