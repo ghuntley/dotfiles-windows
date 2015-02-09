@@ -23,6 +23,7 @@ cinst IIS-WindowsAuthentication -source windowsfeatures
 ############## 
 # Development
 
+cinst zeal
 cinst markdownpad2
 cinst sourcecodepro
 cinst PowerShell
