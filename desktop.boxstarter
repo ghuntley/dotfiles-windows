@@ -126,6 +126,7 @@ cinst teamviewer
 cinst nmap
 cinst wireshark
 cinst windirstat
+cinst dumeter
 
 cinst winscp
 cinst putty
