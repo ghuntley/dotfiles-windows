@@ -152,6 +152,7 @@ Install-ChocolateyVsixPackage CodeMaid https://visualstudiogallery.msdn.microsof
 Install-ChocolateyVsixPackage SideWaffle http://sidewaffle.com/feed/web/templatepack.vsix
 Install-ChocolateyVsixPackage VSColorOutput https://visualstudiogallery.msdn.microsoft.com/f4d9c2b5-d6d7-4543-a7a5-2d7ebabc2496/file/63103/9/VSColorOutput.vsix
 Install-ChocolateyVsixPackage OpenCommandLine https://visualstudiogallery.msdn.microsoft.com/4e84e2cf-2d6b-472a-b1e2-b84932511379/file/151803/3/OpenCommandLine.vsix
+Install-ChocolateyVsixPackage FSharpWebTemplates https://visualstudiogallery.msdn.microsoft.com/f1dae7fe-1ecc-4f1b-86b5-32a2970d012a/file/118833/6/WebItemTemplates.vsix
 
 ###############
 # Customization
