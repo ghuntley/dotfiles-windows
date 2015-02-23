@@ -60,7 +60,7 @@ cinst packer
 
 
 cinst python3
-cinst nodejs.install
+cinst nodejs.commandline
 cinst ruby
 cinst ruby.devkit
 
