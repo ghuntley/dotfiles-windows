@@ -24,6 +24,8 @@ cinst curl
 cinst javaruntime
 cinst java.jdk
 
+cinst git
+cinst git-credential-manager-for-windows
 cinst githubforwindows
 cinst sourcetree
 cinst virtualbox
