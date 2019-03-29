@@ -38,6 +38,8 @@ cinst ruby.devkit
 ############
 # Multimedia
 
+cinst snagit
+cinst camtasia
 cinst vlc
 cinst youtube-dl
 cinst flashplayerplugin
@@ -56,6 +58,7 @@ cinst vim
 cinst sudo
 cinst gnuwin
 cinst console2
+cinst hyper
 cinst keepass
 
 cinst checksum
