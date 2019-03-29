@@ -28,9 +28,6 @@ cinst git
 cinst git-credential-manager-for-windows
 cinst githubforwindows
 cinst sourcetree
-cinst virtualbox
-cinst vagrant
-cinst packer
 
 
 cinst python3
@@ -50,7 +47,6 @@ cinst flashplayerplugin
 
 cinst AllBrowsers
 cinst elinks
-cinst tor-browser
 cinst lastpass
 
 ############
@@ -69,8 +65,7 @@ cinst 7zip.commandline
 
 cinst foxitreader
 
-cinst markpad
-cinst sublimetext3
+cinst vscode
 
 cinst totalcommander
 cinst rdcman
