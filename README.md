@@ -18,7 +18,7 @@ cinst ack
 cinst NuGet.CommandLine
 
 cinst linqpad5
-cinst fiddler4
+cinst fiddler
 cinst curl
 
 cinst javaruntime
