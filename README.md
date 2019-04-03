@@ -5,94 +5,94 @@ dotfiles-windows
 #################
 # Windows Features
 
-cinst TelnetClient -source windowsFeatures
+choco install TelnetClient -source windowsFeatures -y
   
 ############## 
 # Development
 
-cinst dotpeek
-cinst resharper
-cinst windbg
-cinst ack
+choco install dotpeek -y
+choco install resharper -y
+choco install windbg -y
+choco install ack -y
 
-cinst NuGet.CommandLine
+choco install NuGet.CommandLine -y
 
-cinst linqpad5
-cinst fiddler
-cinst curl
+choco install linqpad5 -y
+choco install fiddler -y
+choco install curl -y
 
-cinst javaruntime
-cinst java.jdk
+choco install javaruntime -y
+choco install java.jdk -y
 
-cinst git
-cinst git-credential-manager-for-windows
-cinst githubforwindows
-cinst sourcetree
+choco install git -y
+choco install git-credential-manager-for-windows -y
+choco install githubforwindows -y
+choco install sourcetree -y
 
 
-cinst python3
-cinst nodejs.install
-cinst ruby
-cinst ruby.devkit
+choco install python3 -y
+choco install nodejs.install -y
+choco install ruby -y
+choco install ruby.devkit -y
 
 ############
 # Multimedia
 
-cinst snagit
-cinst camtasia
-cinst vlc
-cinst youtube-dl
-cinst flashplayerplugin
+choco install snagit -y
+choco install camtasia -y
+choco install vlc -y
+choco install youtube-dl -y
+choco install flashplayerplugin -y
 
 ##############
 # Web Browsers
 
-cinst AllBrowsers
-cinst elinks
-cinst lastpass
+choco install AllBrowsers -y
+choco install elinks -y
+choco install lastpass -y
 
 ############
 # Essentials
 
-cinst vim
-cinst sudo
-cinst gnuwin
-cinst console2
-cinst hyper
-cinst keepass
+choco install vim -y
+choco install sudo -y
+choco install gnuwin -y
+choco install console2 -y
+choco install hyper -y
+choco install keepass -y
 
-cinst checksum
+choco install checksum -y
 
-cinst 7zip
-cinst 7zip.commandline
+choco install 7zip -y
+choco install 7zip.commandline -y
 
-cinst foxitreader
+choco install foxitreader -y
 
-cinst vscode
+choco install vscode -y
 
-cinst totalcommander
-cinst rdcman
+choco install totalcommander -y
+choco install rdcman -y
 
-cinst imgburn
-cinst deluge
+choco install imgburn -y
+choco install deluge -y
 
-cinst filezilla
-cinst paint.net
+choco install filezilla -y
+choco install paint.net -y
 
 ##########
 # Sysadmin
 
-cinst sysinternals
-cinst lockhunter
+choco install sysinternals -y
+choco install lockhunter -y
 
-cinst ultravnc
-cinst teamviewer
+choco install ultravnc -y
+choco install teamviewer -y
 
-cinst nmap
-cinst wireshark
-cinst windirstat
-cinst dumeter
+choco install nmap -y
+choco install wireshark -y
+choco install windirstat -y
+choco install dumeter -y
 
-cinst winscp
-cinst putty
+choco install winscp -y
+choco install putty -y
 ```
