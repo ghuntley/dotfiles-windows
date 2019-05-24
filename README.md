@@ -21,6 +21,7 @@ choco install dotpeek -y
 choco install windbg -y
 choco install ack -y
 
+choco install keybase -y
 choco install Gpg4win -y
 choco install NuGet.CommandLine -y
 
