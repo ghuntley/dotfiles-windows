@@ -23,6 +23,8 @@ choco install ack -y
 
 choco install keybase -y
 choco install Gpg4win -y
+choco install yubikey-manager -y
+
 choco install NuGet.CommandLine -y
 
 choco install linqpad5 -y
