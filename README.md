@@ -18,7 +18,6 @@ choco install TelnetClient -source windowsFeatures -y
 # Development
 
 choco install dotpeek -y
-choco install resharper -y
 choco install windbg -y
 choco install ack -y
 
@@ -34,8 +33,7 @@ choco install java.jdk -y
 choco install git -y
 choco install git-credential-manager-for-windows -y
 choco install githubforwindows -y
-choco install sourcetree -y
-
+choco install gitkracken -y 
 
 choco install python3 -y
 choco install nodejs.install -y
@@ -55,6 +53,7 @@ choco install flashplayerplugin -y
 # Web Browsers
 
 choco install AllBrowsers -y
+choco install brave -v
 choco install elinks -y
 choco install lastpass -y
 
@@ -63,8 +62,6 @@ choco install lastpass -y
 
 choco install vim -y
 choco install sudo -y
-choco install gnuwin -y
-choco install console2 -y
 choco install hyper -y
 choco install keepass -y
 
@@ -76,6 +73,7 @@ choco install 7zip.commandline -y
 choco install foxitreader -y
 
 choco install vscode -y
+choco install visualstudiocode-insiders -y
 
 choco install totalcommander -y
 choco install rdcman -y
@@ -92,7 +90,6 @@ choco install paint.net -y
 choco install sysinternals -y
 choco install lockhunter -y
 
-choco install ultravnc -y
 choco install teamviewer -y
 
 choco install nmap -y
