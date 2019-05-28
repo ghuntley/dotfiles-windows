@@ -57,8 +57,11 @@ choco install flashplayerplugin -y
 ##############
 # Web Browsers
 
-choco install AllBrowsers -y
 choco install brave -v
+choco install firefox -y
+choco install googlechrome -y
+choco install googlechrome.canary -y
+
 choco install elinks -y
 choco install lastpass -y
 
