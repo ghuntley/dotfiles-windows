@@ -13,7 +13,12 @@ Get-Service ssh-agent
 # Windows Features
 
 choco install TelnetClient -source windowsFeatures -y
-  
+
+############## 
+# Fonts
+
+choco install firacode -y
+
 ############## 
 # Development
 
