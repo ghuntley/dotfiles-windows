@@ -42,6 +42,7 @@ choco install java.jdk -y
 choco install git -y
 choco install git-credential-manager-for-windows -y
 choco install hub -y 
+choco install poshgit -y
 choco install githubforwindows -y
 choco install gitkracken -y 
 
