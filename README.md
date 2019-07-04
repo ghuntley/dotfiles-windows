@@ -30,8 +30,6 @@ choco install keybase -y
 choco install Gpg4win -y
 choco install yubikey-manager -y
 
-choco install NuGet.CommandLine -y
-
 choco install linqpad5 -y
 choco install fiddler -y
 choco install curl -y
