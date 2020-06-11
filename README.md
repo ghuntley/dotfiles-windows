@@ -18,6 +18,7 @@ choco install TelnetClient -source windowsFeatures -y
 # Fonts
 
 choco install firacode -y
+choco install sourcecodepro -y
 
 ############## 
 # Development
@@ -26,9 +27,9 @@ choco install dotpeek -y
 choco install windbg -y
 choco install ack -y
 
-choco install keybase -y
-choco install Gpg4win -y
-choco install yubikey-manager -y
+#choco install keybase -y
+#choco install Gpg4win -y
+#choco install yubikey-manager -y
 
 choco install linqpad5 -y
 choco install fiddler -y
@@ -46,8 +47,8 @@ choco install gitkracken -y
 
 choco install python3 -y
 choco install nodejs.install -y
-choco install ruby -y
-choco install ruby.devkit -y
+#choco install ruby -y
+#choco install ruby.devkit -y
 
 ############
 # Multimedia
@@ -61,12 +62,11 @@ choco install flashplayerplugin -y
 ##############
 # Web Browsers
 
-choco install brave -v
+#choco install brave -v
 choco install firefox -y
 choco install googlechrome -y
 choco install googlechrome.canary -y
 
-choco install elinks -y
 choco install lastpass -y
 
 ############
@@ -74,8 +74,7 @@ choco install lastpass -y
 
 choco install vim -y
 choco install sudo -y
-choco install hyper -y
-choco install keepass -y
+choco install microsoft-windows-terminal - y
 
 choco install checksum -y
 
@@ -92,6 +91,8 @@ choco install rdcman -y
 
 choco install imgburn -y
 choco install deluge -y
+choco install freedownloadmanager -y
+choco install expandrive -y
 
 choco install filezilla -y
 choco install paint.net -y
@@ -104,8 +105,6 @@ choco install lockhunter -y
 
 choco install teamviewer -y
 
-choco install nmap -y
-choco install wireshark -y
 choco install windirstat -y
 choco install dumeter -y
 
