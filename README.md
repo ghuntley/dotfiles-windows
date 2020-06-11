@@ -1,12 +1,30 @@
 dotfiles-windows
 ================
 
+# ssh
+
 ```powershell
 # Make sure you're running as an Administrator
 Set-Service ssh-agent -StartupType Automatic
 Start-Service ssh-agent
 Get-Service ssh-agent
 ```
+
+# windows terminal
+
+```
+Install-Module posh-git -Scope CurrentUser
+Install-Module oh-my-posh -Scope CurrentUser
+Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+
+notepad $PROFILE
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme Paradox
+```
+
+
+# chocolatey
 
 ```bash
 #################
